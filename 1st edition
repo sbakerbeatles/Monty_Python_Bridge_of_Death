@@ -1,0 +1,101 @@
+import time
+
+
+def pause():
+    time.sleep(3)
+
+
+def bridge_keeper():
+    print("Bridge Keeper: Stop, who would cross the bridge of death")
+    pause()
+    print("must answer these questons three")
+    pause()
+    print("'ere the other side he sees\n")
+    pause()
+
+
+print('The Knights of the Round Table arrive at the Bridge of Death.')
+
+pause()
+
+print(
+    'Sir Lancelot the Brave is the first one to approach the bridge keeper. \n'
+)
+
+bridge_keeper()
+
+print("Sir Lancelot: Ask me the questions bridge keeper, I'm not afraid.\n")
+
+pause()
+
+input('What is your name?: ')
+input('What is your quest?: ')
+color = input('What is your favorite color?: ')
+if color.casefold() == ('blue'):
+    print('Right, off you go then.\n')
+    time.sleep(2)
+    print('Oh, Thank you, Thank you very much\n')
+
+    pause()
+
+print("Sir Robin: That's easy!\n")
+
+pause()
+
+print('(The rest of the knights head closer to the bridge)\n')
+
+pause()
+
+bridge_keeper()
+
+print("Sir Robin: Ask me the questions bridge keeper, I'm not afraid.\n")
+
+pause()
+
+input('What is your name?: ')
+input('What is your quest?: ')
+assyria = input('What is the capital of Assyria?: ')
+if assyria.casefold() == ('I dont know that.'):
+    print('(Sir Robin is thrown into the chasm.)\n')
+else:
+    print('(Sir Robin is thrown into the chasm.)\n')
+
+print('(Sir Galahad nervously approaches the bridge keeper)\n')
+
+pause()
+
+print('Bridge Keeper: Halt!')
+
+time.sleep(2)
+
+input('What is your name?: ')
+input('What is your quest?: ')
+color = input("What is your favorite color?: ")
+if color.casefold() != ('blue'):
+    print('(Sir Galahad is thrown into the chasm.)\n')
+
+pause()
+
+print('(King Arthur approaches the bridge keeper confidently.)\n')
+
+pause()
+
+input('Bridge Keeper: Halt! What is your name?: ')
+input("What is your quest?: ")
+air_speed_velocity = input(
+    'What is the airspeed velocity of an unladen swallow?: \n')
+print("Well, I don't know that.\n")
+
+time.sleep(2)
+
+print("The bridge keeper is thrown into the chasm.\n")
+
+pause()
+
+print('Sir Bedivere: How do you know so much about swallows? \n')
+
+pause()
+
+print(
+    "King Arthur: Well, you have to know these things when you're a king, you know."
+)
